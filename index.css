@@ -1,0 +1,21 @@
+h1 {
+  font-family: "Abril Fatface";
+}
+
+h4, h2 {
+  font-family: "Abril Fatface";
+}
+
+p {
+  font-family: "Quicksand";
+}
+
+form {
+  font-family: "Quicksand", sans-serif;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  font-family: "Quicksand", sans-serif;
+}/*# sourceMappingURL=index.css.map */

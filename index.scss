@@ -1,0 +1,26 @@
+$header-font: 'Abril Fatface';
+$main-font: 'Quicksand';
+
+h1 {
+  font-family: $header-font;
+}
+
+h4, h2 {
+    font-family: $header-font;
+  }
+
+p {
+  font-family: $main-font;
+}
+
+form {
+  font-family: 'Quicksand', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-family: 'Quicksand', sans-serif;
+}
+
+//setting up some fonts 
