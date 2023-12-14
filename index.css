@@ -1,5 +1,14 @@
+.navbar {
+  font-family: "Quicksand";
+}
+
+#logo {
+  margin-left: 10px;
+}
+
 h1 {
   font-family: "Abril Fatface";
+  font-size: 40px;
 }
 
 h4, h2 {

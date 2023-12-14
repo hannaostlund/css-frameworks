@@ -8,42 +8,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./index.css">
     <title>Scandi Tree</title>
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS here -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
 
-  <body>
+<body>
     <header>
-    <!-- Red navbar with black text -->
-    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
+  <!-- Bootstrap nav bar, red-->
+  <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img src="./images/snow2.svg" alt="Logo" width="20" height="20" id="logo">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-    <!-- Background image -->
-    <div class="p-5 text-center bg-image d-flex align-items-center justify-content-center" style="
+<!-- Background image with "logo" svg, h1 and button -->
+<div class="p-5 text-center bg-image d-flex align-items-center justify-content-center" style="
     background-image: url('./images/pexels-photo-1684236.jpeg');
     height: 400px;
     background-position: center; 
-    background-size: cover;
-    ">
+    background-size: cover;">
     <div class="text-white">
-      <h1 class="mb-3">Welcome to Scandi Tree</h1>
-      <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="#!" role="button">Order Now</a>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 text-center">
+                    <img src="./images/snow2.svg" alt="Snow Icon" width="50" height="50" style="margin-bottom: 20px;">
+                </div>
+                <h1>Welcome to Scandi Tree</h1>
+                <div class="col-12 text-center">
+                    <a data-mdb-ripple-init class="btn btn-outline-light btn-lg mt-4" href="#!" role="button">Order Now</a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</header>
+</div>
 
-<!-- About, responsive content container -->
+<!-- About content, responsive content container -->
 <section id="about" class="bg-white py-5">
   <div class="container">
     <h4>Traditional Scandinavian Trees Delivered to Your Door</h4>
@@ -51,12 +61,12 @@
   </div>
 </section>
 
-  <!-- Container with 3 cards -->
+<!-- Container with 3 cards and img and btn -->
   <div class="container mt-5 mb-5">
     <div class="row">
       <div class="col">
         <div class="card h-100">
-          <img src="./images/gran1.webp" class="card-img-top" alt="Nordman Fir Image">
+          <img src="./images/gran11.jpg" class="card-img-top" alt="Nordman Fir Image">
           <div class="card-body text-center">
             <h4 class="card-title">Nordmann Fir</h4>
             <p class="card-text">Indulge in the beauty of the Nordmann Fir, known for its lush foliage and needle retention. Revel in its luxurious appearance, bringing elegance and lasting freshness to your festive celebrations.</p>
@@ -69,14 +79,14 @@
           <img src="./images/gran2.jpeg" class="card-img-top" alt="Norway Spruce Image">
           <div class="card-body text-center">
             <h4 class="card-title">Norway Spruce</h4>
-            <p class="card-text">Evoke nostalgia with the classic charm of the Norway Spruce. Adorn your home with its rich, traditional scent and iconic conical shape, capturing the essence of a timeless Christmas.</p>
+            <p class="card-text">Evoke nostalgia with the classic charm of the green Norway Spruce. Adorn your home with its rich, traditional pine scent and iconic conical shape, capturing the essence of a truly timeless Christmas.</p>
             <button class="btn btn-success">Order now</button>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="./images/gran3.webp" class="card-img-top" alt="Mini Tree Image">
+          <img src="./images/gran33.jpg" class="card-img-top" alt="Mini Tree Image">
           <div class="card-body text-center">
             <h4 class="card-title">Mini Tree</h4>
             <p class="card-text">Embrace the delightful charm of our Mini Tree, a perfect addition to any space. Experience the joy of the season with this adorable and compact Christmas companion, spreading festive cheer wherever it stands.</p>
@@ -112,7 +122,7 @@
 </section>  
 </section>
 
-<!-- footer -->
+<!-- Footer -->
 <footer class="bg-danger text-white py-4">
   <div class="container text-center">
     <p>&copy; 2023 Scandi Tree. All Rights Reserved.</p>

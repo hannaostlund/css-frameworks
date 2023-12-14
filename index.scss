@@ -1,8 +1,17 @@
 $header-font: 'Abril Fatface';
 $main-font: 'Quicksand';
 
+.navbar {
+  font-family: $main-font;
+}
+
+#logo {
+  margin-left: 10px; 
+}
+
 h1 {
   font-family: $header-font;
+  font-size: 40px;
 }
 
 h4, h2 {
