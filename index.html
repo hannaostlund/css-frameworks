@@ -6,97 +6,92 @@
     <title>Bootstrap Assignment</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Styling for the christmas trees so they have the same size-->
   </head>
+
   <body>
     <header>
-    <!-- Grey navbar with black text -->
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
+    <!-- Red navbar with black text -->
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
     <!-- Background image -->
     <div class="p-5 text-center bg-image d-flex align-items-center justify-content-center" style="
     background-image: url('./images/pexels-photo-1684236.jpeg');
     height: 400px;
     background-position: center; 
     background-size: cover;
-  ">
+    ">
     <div class="text-white">
       <h1 class="mb-3">Welcome to Scandi Tree</h1>
       <h4 class="mb-3">Traditional Scandinavian Trees Delivered to Your Door</h4>
       <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="#!" role="button">Order Now</a>
     </div>
   </div>
-  
-  <!-- Background image -->
-
 </header>
 
-
-  <!-- About, responsive content container -->
-  <section id="about" class="bg-light py-5">
-    <div class="container">
-      <h2>Premium Trees, Direct to You</h2>
-      <p>Scandi Tree is devoted to delivering the essence of Scandinavian tradition to your doorstep. With a commitment to quality and sustainability, we specialize in providing hand-selected, eco-friendly Christmas trees, ensuring cherished moments and authentic holiday magic for your home.</p>
-    </div>
-  </section>
+<!-- About, responsive content container -->
+<section id="about" class="bg-white py-5">
+  <div class="container">
+    <h2>Premium Trees, Direct to You</h2>
+    <p>Scandi Tree is devoted to delivering the essence of Scandinavian tradition to your doorstep. With a commitment to quality and sustainability, we specialize in providing hand-selected, eco-friendly Christmas trees, ensuring cherished moments and authentic holiday magic for your home.</p>
+  </div>
+</section>
 
   <!-- Container with 3 cards -->
-    <div class="container mt-5 mb-5">
-        <div class="row">
-            <div class="col">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h4 class="card-title">Nordmann Fir</h4>
-                        <p class="card-text">
-                          Indulge in the beauty of the Nordmann Fir, known for its lush foliage and needle retention. Revel in its luxurious appearance, bringing elegance and lasting freshness to your festive celebrations.
-                        </p>
-                        <button class="btn btn-success">Click Me</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h4 class="card-title">Norway Spruce</h4>
-                        <p class="card-text">
-                          Evoke nostalgia with the classic charm of the Norway Spruce. Adorn your home with its rich, traditional scent and iconic conical shape, capturing the essence of a timeless Christmas.
-                        </p>
-                        <button class="btn btn-danger">Dont Click Me</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-body text-center">
-                        <h4 class="card-title">Mini tree</h4>
-                        <p class="card-text">
-                          Embrace the delightful charm of our Mini Tree, a perfect addition to any space. Experience the joy of the season with this adorable and compact Christmas companion, spreading festive cheer wherever it stands.
-                        </p>
-                        <button class="btn btn-success">try me</button>
-                    </div>
-                </div>
-            </div>
-            </div>
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./images/gran1.webp" class="card-img-top" alt="Nordman Fir Image">
+          <div class="card-body text-center">
+            <h4 class="card-title">Nordmann Fir</h4>
+            <p class="card-text">Indulge in the beauty of the Nordmann Fir, known for its lush foliage and needle retention. Revel in its luxurious appearance, bringing elegance and lasting freshness to your festive celebrations.</p>
+            <button class="btn btn-success">Order now</button>
+          </div>
         </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./images/gran2.jpeg" class="card-img-top" alt="Norway Spruce Image">
+          <div class="card-body text-center">
+            <h4 class="card-title">Norway Spruce</h4>
+            <p class="card-text">Evoke nostalgia with the classic charm of the Norway Spruce. Adorn your home with its rich, traditional scent and iconic conical shape, capturing the essence of a timeless Christmas.</p>
+            <button class="btn btn-danger">Order now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./images/gran3.webp" class="card-img-top" alt="Mini Tree Image">
+          <div class="card-body text-center">
+            <h4 class="card-title">Mini Tree</h4>
+            <p class="card-text">Embrace the delightful charm of our Mini Tree, a perfect addition to any space. Experience the joy of the season with this adorable and compact Christmas companion, spreading festive cheer wherever it stands.</p>
+            <button class="btn btn-success">Order now</button>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 
-      <!-- Contact responsive content container -->
-  <section id="contact" class="bg-light py-5">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>This section contains information about how to contact us.</p>
-    </div>
-  </section>
+<!-- Contanct info responsive container-->
+<section id="contact" class="bg-white py-5">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>This section contains information about how to contact us.</p>
+  </div>
+</section>
 
     <!-- Footer -->
     <footer
